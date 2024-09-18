@@ -1,0 +1,28 @@
+trained on PC5 in NASA-MDP Dataset
+
+with training data:
+Train
+Total:  15300
+Defective:  453
+Non-defective:  14847
+Defective Ratio:  0.029607843137254904
+
+Test
+Total:  1701
+Defective:  50
+Non-defective:  1651
+Defective Ratio:  0.029394473838918283
+
+Train after oversampling
+Total:  22270
+Defective:  7423
+Non-defective:  14847
+Defective Ratio:  0.33331836551414457
+
+Here is the result:
+{
+    "accuracy": 0.9570840681951793,
+    "precision": 0.4,
+    "recall": 0.92,
+    "f1_score": 0.5575757575757576
+}
